@@ -1,0 +1,40 @@
+INFO - 2023-12-12 02:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 02:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 02:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 02:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 02:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 02:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 02:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 02:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-12 02:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-12 11:07:39 --> mysqli_sql_exception: Column 'kualitas_limbah' cannot be null in E:\xampp\htdocs\BPSI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\xampp\htdocs\BPSI\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `bp...', 0)
+#1 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bp...')
+#2 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bp...')
+#3 E:\xampp\htdocs\BPSI\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bp...', Array, false)
+#4 E:\xampp\htdocs\BPSI\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\BPSI\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\BPSI\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\BPSI\app\Controllers\Bpsi.php(40): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(932): App\Controllers\Bpsi->create()
+#9 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpsi))
+#10 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\BPSI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\BPSI\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-12-12 11:07:40 --> Column 'kualitas_limbah' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `bpsi` (`ph`, `tds`, `suhu`, `kualitas_limbah`) VALUES (\'5\', \'250\', \'26\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bpsi` (`ph`, `tds`, `suhu`, `kualitas_limbah`) VALUES (\'5\', \'250\', \'26\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bpsi` (`ph`, `tds`, `suhu`, `kualitas_limbah`) VALUES (\'5\', \'250\', \'26\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bpsi` (`ph`, `tds`, `suhu`, `kualitas_limbah`) VALUES (:ph:, :tds:, :suhu:, :kualitas_limbah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Bpsi.php(40): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bpsi->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpsi))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')

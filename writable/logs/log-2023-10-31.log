@@ -1,0 +1,14 @@
+CRITICAL - 2023-10-31 00:09:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\charts\grafik.php on line 16.
+ 1 APPPATH\Views\pages\charts\grafik.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\grafik.php', 16)
+ 2 APPPATH\Views\pages\charts\chartjs.php(127): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\grafik.php')
+ 3 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 6 APPPATH\Controllers\Bpsi.php(109): view('pages/charts/chartjs', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bpsi->halaman_charts()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpsi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+INFO - 2023-10-31 01:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,11 @@
+INFO - 2023-08-14 03:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-14 03:59:42 --> Invalid file: "/dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/dashboard', [], true)
+ 3 APPPATH\Controllers\LoginController.php(49): view('/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')

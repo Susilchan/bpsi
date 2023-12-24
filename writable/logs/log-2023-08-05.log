@@ -1,0 +1,677 @@
+CRITICAL - 2023-08-05 02:55:33 --> Invalid file: "welcome_message.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 03:20:29 --> Invalid file: "page/charts/chartsjs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/charts/chartsjs.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('page/charts/chartsjs', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('page/charts/chartsjs')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 03:20:43 --> Invalid file: "page/charts/chartsjs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/charts/chartsjs.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('page/charts/chartsjs', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('page/charts/chartsjs')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 03:21:25 --> Invalid file: "pages/charts/chartsjs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/charts/chartsjs.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartsjs', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('pages/charts/chartsjs')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 03:21:26 --> Invalid file: "pages/charts/chartsjs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/charts/chartsjs.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartsjs', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('pages/charts/chartsjs')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 03:21:27 --> Invalid file: "pages/charts/chartsjs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/charts/chartsjs.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartsjs', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('pages/charts/chartsjs')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 03:21:27 --> Invalid file: "pages/charts/chartsjs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/charts/chartsjs.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartsjs', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('pages/charts/chartsjs')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 03:21:33 --> Invalid file: "pages/charts/chartsjs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/charts/chartsjs.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartsjs', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('pages/charts/chartsjs')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 04:12:13 --> file_get_contents(http://103.76.120.90/bpsi): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in APPPATH\Views\pages\tables\basic-table.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://103.76.120.90/bpsi): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php', 27)
+ 2 APPPATH\Views\pages\tables\basic-table.php(27): file_get_contents('http://103.76.120.90/bpsi')
+ 3 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-table', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('pages/tables/basic-table')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_tabel()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 04:13:39 --> file_get_contents(http://localhost/bpsi): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in APPPATH\Views\pages\tables\basic-table.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/bpsi): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php', 27)
+ 2 APPPATH\Views\pages\tables\basic-table.php(27): file_get_contents('http://localhost/bpsi')
+ 3 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-table', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('pages/tables/basic-table')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_tabel()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 04:13:41 --> file_get_contents(http://localhost/bpsi): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in APPPATH\Views\pages\tables\basic-table.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/bpsi): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php', 27)
+ 2 APPPATH\Views\pages\tables\basic-table.php(27): file_get_contents('http://localhost/bpsi')
+ 3 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-table', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('pages/tables/basic-table')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_tabel()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 04:24:26 --> file_get_contents(http://103.76.120.90/bpsi): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in APPPATH\Views\pages\tables\basic-table.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://103.76.120.90/bpsi): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php', 27)
+ 2 APPPATH\Views\pages\tables\basic-table.php(27): file_get_contents('http://103.76.120.90/bpsi')
+ 3 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-table', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('pages/tables/basic-table')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_tabel()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 04:24:28 --> file_get_contents(http://103.76.120.90/bpsi): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in APPPATH\Views\pages\tables\basic-table.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://103.76.120.90/bpsi): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php', 27)
+ 2 APPPATH\Views\pages\tables\basic-table.php(27): file_get_contents('http://103.76.120.90/bpsi')
+ 3 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-table', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('pages/tables/basic-table')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_tabel()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 04:24:30 --> file_get_contents(http://103.76.120.90/bpsi): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in APPPATH\Views\pages\tables\basic-table.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://103.76.120.90/bpsi): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php', 27)
+ 2 APPPATH\Views\pages\tables\basic-table.php(27): file_get_contents('http://103.76.120.90/bpsi')
+ 3 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-table', [], true)
+ 6 APPPATH\Controllers\Home.php(17): view('pages/tables/basic-table')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_tabel()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+ERROR - 2023-08-05 04:28:46 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_bpsi' in E:\xampp\htdocs\BPSI\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 E:\xampp\htdocs\BPSI\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_bpsi', 3306, '', 0)
+#1 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp\htdocs\BPSI\system\Database\MySQLi\Connection.php(444): CodeIgniter\Database\BaseConnection->query('SHOW INDEX FROM...')
+#4 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(1533): CodeIgniter\Database\MySQLi\Connection->_indexData('`bpsi`')
+#5 E:\xampp\htdocs\BPSI\app\Views\pages\tables\basic-table.php(29): CodeIgniter\Database\BaseConnection->getIndexData('bpsi')
+#6 E:\xampp\htdocs\BPSI\system\View\View.php(224): include('E:\\xampp\\htdocs...')
+#7 E:\xampp\htdocs\BPSI\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 E:\xampp\htdocs\BPSI\system\Common.php(1176): CodeIgniter\View\View->render('pages/tables/ba...', Array, true)
+#9 E:\xampp\htdocs\BPSI\app\Controllers\Home.php(17): view('pages/tables/ba...')
+#10 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(932): App\Controllers\Home->halaman_tabel()
+#11 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\xampp\htdocs\BPSI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 E:\xampp\htdocs\BPSI\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_bpsi' in E:\xampp\htdocs\BPSI\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp\htdocs\BPSI\system\Database\MySQLi\Connection.php(444): CodeIgniter\Database\BaseConnection->query('SHOW INDEX FROM...')
+#3 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(1533): CodeIgniter\Database\MySQLi\Connection->_indexData('`bpsi`')
+#4 E:\xampp\htdocs\BPSI\app\Views\pages\tables\basic-table.php(29): CodeIgniter\Database\BaseConnection->getIndexData('bpsi')
+#5 E:\xampp\htdocs\BPSI\system\View\View.php(224): include('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\BPSI\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 E:\xampp\htdocs\BPSI\system\Common.php(1176): CodeIgniter\View\View->render('pages/tables/ba...', Array, true)
+#8 E:\xampp\htdocs\BPSI\app\Controllers\Home.php(17): view('pages/tables/ba...')
+#9 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(932): App\Controllers\Home->halaman_tabel()
+#10 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\xampp\htdocs\BPSI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 E:\xampp\htdocs\BPSI\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-08-05 04:28:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_bpsi'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\MySQLi\Connection.php(444): CodeIgniter\Database\BaseConnection->query('SHOW INDEX FROM `bpsi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(1533): CodeIgniter\Database\MySQLi\Connection->_indexData('`bpsi`')
+ 4 APPPATH\Views\pages\tables\basic-table.php(29): CodeIgniter\Database\BaseConnection->getIndexData('bpsi')
+ 5 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-table', [], true)
+ 8 APPPATH\Controllers\Home.php(17): view('pages/tables/basic-table')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_tabel()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+ERROR - 2023-08-05 04:39:46 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_bpsi' in E:\xampp\htdocs\BPSI\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 E:\xampp\htdocs\BPSI\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_bpsi', 3306, '', 0)
+#1 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp\htdocs\BPSI\system\Database\MySQLi\Connection.php(444): CodeIgniter\Database\BaseConnection->query('SHOW INDEX FROM...')
+#4 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(1533): CodeIgniter\Database\MySQLi\Connection->_indexData('`bpsi`')
+#5 E:\xampp\htdocs\BPSI\app\Views\pages\tables\basic-table.php(29): CodeIgniter\Database\BaseConnection->getIndexData('bpsi')
+#6 E:\xampp\htdocs\BPSI\system\View\View.php(224): include('E:\\xampp\\htdocs...')
+#7 E:\xampp\htdocs\BPSI\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 E:\xampp\htdocs\BPSI\system\Common.php(1176): CodeIgniter\View\View->render('pages/tables/ba...', Array, true)
+#9 E:\xampp\htdocs\BPSI\app\Controllers\Home.php(17): view('pages/tables/ba...')
+#10 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(932): App\Controllers\Home->halaman_tabel()
+#11 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\xampp\htdocs\BPSI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 E:\xampp\htdocs\BPSI\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_bpsi' in E:\xampp\htdocs\BPSI\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp\htdocs\BPSI\system\Database\MySQLi\Connection.php(444): CodeIgniter\Database\BaseConnection->query('SHOW INDEX FROM...')
+#3 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(1533): CodeIgniter\Database\MySQLi\Connection->_indexData('`bpsi`')
+#4 E:\xampp\htdocs\BPSI\app\Views\pages\tables\basic-table.php(29): CodeIgniter\Database\BaseConnection->getIndexData('bpsi')
+#5 E:\xampp\htdocs\BPSI\system\View\View.php(224): include('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\BPSI\system\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 E:\xampp\htdocs\BPSI\system\Common.php(1176): CodeIgniter\View\View->render('pages/tables/ba...', Array, true)
+#8 E:\xampp\htdocs\BPSI\app\Controllers\Home.php(17): view('pages/tables/ba...')
+#9 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(932): App\Controllers\Home->halaman_tabel()
+#10 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\xampp\htdocs\BPSI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 E:\xampp\htdocs\BPSI\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-08-05 04:39:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_bpsi'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\MySQLi\Connection.php(444): CodeIgniter\Database\BaseConnection->query('SHOW INDEX FROM `bpsi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(1533): CodeIgniter\Database\MySQLi\Connection->_indexData('`bpsi`')
+ 4 APPPATH\Views\pages\tables\basic-table.php(29): CodeIgniter\Database\BaseConnection->getIndexData('bpsi')
+ 5 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-table', [], true)
+ 8 APPPATH\Controllers\Home.php(17): view('pages/tables/basic-table')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_tabel()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+ERROR - 2023-08-05 11:56:38 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_bpsi' in E:\xampp\htdocs\BPSI\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 E:\xampp\htdocs\BPSI\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_bpsi', 3306, '', 0)
+#1 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp\htdocs\BPSI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\BPSI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\BPSI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\BPSI\app\Controllers\Bpsi.php(21): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(932): App\Controllers\Bpsi->halaman_tabel()
+#8 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpsi))
+#9 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\BPSI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\BPSI\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_bpsi' in E:\xampp\htdocs\BPSI\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp\htdocs\BPSI\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp\htdocs\BPSI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp\htdocs\BPSI\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp\htdocs\BPSI\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\xampp\htdocs\BPSI\app\Controllers\Bpsi.php(21): CodeIgniter\BaseModel->findAll()
+#6 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(932): App\Controllers\Bpsi->halaman_tabel()
+#7 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpsi))
+#8 E:\xampp\htdocs\BPSI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\BPSI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp\htdocs\BPSI\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-08-05 11:56:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_bpsi'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `bpsi`
+ORDER BY `id` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Bpsi.php(21): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bpsi->halaman_tabel()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpsi))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 12:18:40 --> Invalid file: "pages/tables/basic-tabl.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/tables/basic-tabl.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-tabl', [], true)
+ 3 APPPATH\Controllers\Bpsi.php(22): view('pages/tables/basic-tabl', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bpsi->halaman_tabel()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpsi))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 12:18:42 --> Invalid file: "pages/tables/basic-tabl.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/tables/basic-tabl.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-tabl', [], true)
+ 3 APPPATH\Controllers\Bpsi.php(22): view('pages/tables/basic-tabl', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bpsi->halaman_tabel()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpsi))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 12:18:48 --> Invalid file: "pages/tables/basic-tabl.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/tables/basic-tabl.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-tabl', [], true)
+ 3 APPPATH\Controllers\Bpsi.php(22): view('pages/tables/basic-tabl', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bpsi->halaman_tabel()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpsi))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 12:19:51 --> Invalid file: "pages/tables/basic-tabl.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/tables/basic-tabl.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-tabl', [], true)
+ 3 APPPATH\Controllers\Bpsi.php(22): view('pages/tables/basic-tabl', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bpsi->halaman_tabel()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpsi))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 12:23:27 --> Invalid file: "pages/tables/basic-tabl.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/tables/basic-tabl.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-tabl', [], true)
+ 3 APPPATH\Controllers\Bpsi.php(22): view('pages/tables/basic-tabl', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bpsi->halaman_tabel()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpsi))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 12:23:29 --> Invalid file: "pages/tables/basic-tabl.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/tables/basic-tabl.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-tabl', [], true)
+ 3 APPPATH\Controllers\Bpsi.php(22): view('pages/tables/basic-tabl', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bpsi->halaman_tabel()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpsi))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 12:23:38 --> Invalid file: "pages/tables/basic-tabl.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/tables/basic-tabl.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-tabl', [], true)
+ 3 APPPATH\Controllers\Bpsi.php(22): view('pages/tables/basic-tabl', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bpsi->halaman_tabel()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpsi))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 12:24:54 --> Undefined property: stdClass::$waktu
+in APPPATH\Views\pages\tables\basic-table.php on line 32.
+ 1 APPPATH\Views\pages\tables\basic-table.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$waktu', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-table', [], true)
+ 5 APPPATH\Controllers\Bpsi.php(22): view('pages/tables/basic-table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bpsi->halaman_tabel()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpsi))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 12:31:52 --> Undefined variable $data
+in APPPATH\Views\pages\tables\basic-table.php on line 27.
+ 1 APPPATH\Views\pages\tables\basic-table.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-table', [], true)
+ 5 APPPATH\Controllers\Bpsi.php(25): view('pages/tables/basic-table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bpsi->halaman_tabel()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpsi))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 12:35:00 --> Attempt to read property "waktu" on array
+in APPPATH\Views\pages\tables\basic-table.php on line 28.
+ 1 APPPATH\Views\pages\tables\basic-table.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "waktu" on array', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-table', [], true)
+ 5 APPPATH\Controllers\Bpsi.php(25): view('pages/tables/basic-table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bpsi->halaman_tabel()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpsi))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 12:36:18 --> Undefined array key "waktu"
+in APPPATH\Views\pages\tables\basic-table.php on line 28.
+ 1 APPPATH\Views\pages\tables\basic-table.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "waktu"', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\tables\\basic-table.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tables/basic-table', [], true)
+ 5 APPPATH\Controllers\Bpsi.php(25): view('pages/tables/basic-table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bpsi->halaman_tabel()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bpsi))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 07:12:43 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 20.
+ 1 APPPATH\Views\pages\charts\chartjs.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 07:14:12 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 20.
+ 1 APPPATH\Views\pages\charts\chartjs.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 07:14:14 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 20.
+ 1 APPPATH\Views\pages\charts\chartjs.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 07:14:15 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 20.
+ 1 APPPATH\Views\pages\charts\chartjs.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 07:15:18 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 20.
+ 1 APPPATH\Views\pages\charts\chartjs.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 07:15:20 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 20.
+ 1 APPPATH\Views\pages\charts\chartjs.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 07:20:28 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 20.
+ 1 APPPATH\Views\pages\charts\chartjs.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 07:20:29 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 20.
+ 1 APPPATH\Views\pages\charts\chartjs.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 07:21:14 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 19.
+ 1 APPPATH\Views\pages\charts\chartjs.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 07:27:37 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 26.
+ 1 APPPATH\Views\pages\charts\chartjs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 07:29:15 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 26.
+ 1 APPPATH\Views\pages\charts\chartjs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 07:36:52 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 26.
+ 1 APPPATH\Views\pages\charts\chartjs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 07:41:31 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 26.
+ 1 APPPATH\Views\pages\charts\chartjs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 07:41:33 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 26.
+ 1 APPPATH\Views\pages\charts\chartjs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 07:59:48 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 26.
+ 1 APPPATH\Views\pages\charts\chartjs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 10:11:18 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 26.
+ 1 APPPATH\Views\pages\charts\chartjs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 10:13:28 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 26.
+ 1 APPPATH\Views\pages\charts\chartjs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 11:07:25 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 26.
+ 1 APPPATH\Views\pages\charts\chartjs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 11:07:39 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 26.
+ 1 APPPATH\Views\pages\charts\chartjs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
+CRITICAL - 2023-08-05 11:59:04 --> Undefined variable $average
+in APPPATH\Views\pages\charts\chartjs.php on line 26.
+ 1 APPPATH\Views\pages\charts\chartjs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $average', 'E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('E:\\xampp\\htdocs\\BPSI\\app\\Views\\pages\\charts\\chartjs.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/charts/chartjs', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('pages/charts/chartjs')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->halaman_awal()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\BPSI\\public\\index.php')
