@@ -46,6 +46,50 @@
     // tds
 </script>
 <script>
+    Highcharts.chart('container-suhu', {
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: 'Grafik Pemantauan Suhu Air Limbah'
+        },
+
+
+        xAxis: {
+            categories: <?php
+                        echo "[";
+                        foreach ($siang as $index => $dt) {
+                            echo "'" . "|" . $dt['tanggal'] . " " . $dt['waktu'] . "|" . "',";
+                        }
+                        echo "]";
+                        ?>
+        },
+        yAxis: {
+            title: {
+                text: 'Temprature (°C)'
+            }
+        },
+        plotOptions: {
+            line: {
+                dataLabels: {
+                    enabled: true
+                },
+                enableMouseTracking: false
+            }
+        },
+        series: [{
+            name: 'Suhu',
+            data: <?php
+                    echo "[";
+                    foreach ($data as $index => $dt) {
+                        echo "" . $dt['suhu'] . ",";
+                    }
+                    echo "]";
+                    ?>
+        }]
+    });
+</script>
+<script>
     Highcharts.chart('container-tds', {
         chart: {
             type: 'line',
@@ -84,50 +128,6 @@
                     echo "[";
                     foreach ($siang as $index => $dt) {
                         echo "" . $dt['tds'] . ",";
-                    }
-                    echo "]";
-                    ?>
-        }]
-    });
-</script>
-<script>
-    Highcharts.chart('container-suhu', {
-        chart: {
-            type: 'line'
-        },
-        title: {
-            text: 'Grafik Pemantauan Suhu Air Limbah'
-        },
-
-
-        xAxis: {
-            categories: <?php
-                        echo "[";
-                        foreach ($siang as $index => $dt) {
-                            echo "'" . "|" . $dt['tanggal'] . " " . $dt['waktu'] . "|" . "',";
-                        }
-                        echo "]";
-                        ?>
-        },
-        yAxis: {
-            title: {
-                text: 'Temprature (°C)'
-            }
-        },
-        plotOptions: {
-            line: {
-                dataLabels: {
-                    enabled: true
-                },
-                enableMouseTracking: false
-            }
-        },
-        series: [{
-            name: 'Suhu',
-            data: <?php
-                    echo "[";
-                    foreach ($data as $index => $dt) {
-                        echo "" . $dt['suhu'] . ",";
                     }
                     echo "]";
                     ?>

@@ -89,11 +89,26 @@ class Bpsi extends ResourceController
     public function halaman_tabel(): string
     {
         $bpsi = new Modelsbpsi();
+        $time = $this->request->getVar('waktu');
         $fdate = $this->request->getVar('tanggal_mulai');
-        if ($fdate == null) {
+        if ($fdate == null && $time == null) {
             $data = $bpsi->orderBy('id', 'DESC')->findAll();
-        } else {
+        } //clear
+        elseif ($fdate == null && $time != null) {
+            // dd($time);
+            $data = $bpsi->where('DATE_FORMAT(waktu, "%H:%i") >=', $time)
+                ->where('DATE_FORMAT(waktu, "%H:%i") <', date('H:i', strtotime($time) + 60)) // 60 seconds in 1 minute
+                ->find();
+        } elseif ($fdate != null && $time == null) {
             $data = $bpsi->where('tanggal', $fdate)->find();
+        } // clear
+        elseif ($fdate != null && $time != null) {
+            // dd($time);
+            $data = $bpsi->where('tanggal', $fdate)->where('DATE_FORMAT(waktu, "%H:%i") >=', $time)
+                ->where('DATE_FORMAT(waktu, "%H:%i") <', date('H:i', strtotime($time) + 60)) // 60 seconds in 1 minute
+                ->find();
+        } else {
+            $data = $bpsi->orderBy('id', 'DESC')->findAll();
         }
         $ldate = $this->request->getVar('tanggal_akhir');
         $filterByDate = $bpsi->where('tanggal', $fdate)->find();

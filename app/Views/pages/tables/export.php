@@ -60,7 +60,7 @@
             foreach ($data as $isi) { ?>
                 <tr>
                     <td colspan="2"><?= $i++ ?></td>
-                    <td colspan="2"><?= $isi['waktu'] ?></td>
+                    <td colspan="2"><?= $isi['tanggal'] . ' ' . $isi['waktu'] ?></td>
                     <td colspan="2"><?= $isi['ph'] ?> </td>
                     <td colspan="2"><?= $isi['tds'] ?> </td>
                     <td colspan="2"><?= $isi['suhu'] ?> </td>

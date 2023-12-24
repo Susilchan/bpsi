@@ -26,6 +26,34 @@
                 <div class="d-flex justify-content-center">
                   <form action="/basic-table" method="post">
                     <input type="date" class="btn btn-outline-primary" name="tanggal_mulai">
+                    <input type="time" class="btn btn-outline-primary" name="waktu" id="timeInput">
+                    <!-- <select name="waktu" class="btn btn-outline-primary">
+                      <option value="">-</option>
+                      <option value="00">00</option>
+                      <option value="01">01</option>
+                      <option value="02">02</option>
+                      <option value="03">03</option>
+                      <option value="04">04</option>
+                      <option value="05">05</option>
+                      <option value="06">06</option>
+                      <option value="07">07</option>
+                      <option value="08">08</option>
+                      <option value="09">09</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                    </select> -->
                     <button type="submit" class="btn btn-outline-primary ">Cari</button>
                   </form>
                 </div>
@@ -74,29 +102,6 @@
         <div>
           <span id="time"></span>
         </div> -->
-
-        <script>
-          $(document).ready(function() {
-            $('#data').DataTable({
-              dom: 'Bfrtip ',
-              buttons: [{
-                extend: 'excelHtml5',
-                text: 'Download',
-                titleAttr: 'Excel'
-              }],
-              scrollY: "300px",
-              scrollX: true,
-              scrollCollapse: true,
-              paging: false,
-              fixedColumns: {
-                heightMatch: 'semiauto'
-              },
-            });
-          });
-        </script>
-
-
-
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
         <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
         <script src="https://cdn.datatables.net/buttons/2.3.5/js/dataTables.buttons.min.js"></script>
@@ -112,5 +117,19 @@
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+        <script>
+          function submitForm() {
+            // Get the time value from the input
+            var timeValue = $('#timeInput').val();
 
+            // Extract only the hour part
+            var hourPart = timeValue.split('-')[0];
+
+            // Assign the hour part back to the input
+            $('#timeInput').val(hourPart);
+
+            // Now, you can submit the form
+            $('#myForm').submit();
+          }
+        </script>
         <?= $this->endSection() ?>
