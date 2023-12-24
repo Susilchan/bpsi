@@ -13,6 +13,7 @@ git push -u origin main
 
 
 …or push an existing repository from the command line
-1. git remote add origin https://github.com/Susilchan/bpsi.git
-2. git branch -M main
-3. git push -u origin main
+1. git init
+2. git remote add origin https://github.com/Susilchan/bpsi.git
+3. git branch -M main
+4. git push -u origin main
