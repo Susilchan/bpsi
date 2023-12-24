@@ -81,7 +81,7 @@
             name: 'Suhu',
             data: <?php
                     echo "[";
-                    foreach ($data as $index => $dt) {
+                    foreach ($siang as $index => $dt) {
                         echo "" . $dt['suhu'] . ",";
                     }
                     echo "]";

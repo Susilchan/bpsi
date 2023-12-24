@@ -135,16 +135,12 @@ class Bpsi extends ResourceController
         $bpsi = new ModelsBpsi();
         $data = $bpsi->orderBy('id', 'desc')->limit(7)->find();
         // $pagi = $bpsi->where('DATE_FORMAT(waktu, "%H") >=', '04')->where('DATE_FORMAT(waktu, "%H") <', '11')->limit(7)->findAll();
-        $siang = $bpsi->where('DATE_FORMAT(waktu, "%H") >=', '11')->where('DATE_FORMAT(waktu, "%H") <', '15')->limit(7)->findAll();
+        $siang = $bpsi->where('DATE_FORMAT(waktu, "%H") >=', '12')->where('DATE_FORMAT(waktu, "%H") <', '13')->limit(7)->find();
         // $sore = $bpsi->where('DATE_FORMAT(waktu, "%H") >=', '15')->where('DATE_FORMAT(waktu, "%H") <', '18')->limit(7)->findAll();
         // dd($pagi, $siang, $sore, $data);
-        // dd($data);
-        $data = [
-            'data' => $data,
-            'siang' => $siang,
-        ];
+        // dd($siang);
 
-        return view('pages/charts/chartjs_ph', $data);
+        return view('pages/charts/chartjs_ph', ['data' => $data, 'siang' => $siang]);
     }
 
     public function halaman_charts_tds()
@@ -152,17 +148,9 @@ class Bpsi extends ResourceController
 
         $bpsi = new ModelsBpsi();
         $data = $bpsi->orderBy('id', 'desc')->limit(7)->find();
-        // $pagi = $bpsi->where('DATE_FORMAT(waktu, "%H") >=', '04')->where('DATE_FORMAT(waktu, "%H") <', '11')->limit(7)->findAll();
-        $siang = $bpsi->where('DATE_FORMAT(waktu, "%H") >=', '11')->where('DATE_FORMAT(waktu, "%H") <', '15')->limit(7)->findAll();
-        // $sore = $bpsi->where('DATE_FORMAT(waktu, "%H") >=', '15')->where('DATE_FORMAT(waktu, "%H") <', '18')->limit(7)->findAll();
-        // dd($pagi, $siang, $sore, $data);
-        // dd($data);
-        $data = [
-            'data' => $data,
-            'siang' => $siang,
-        ];
+        $siang = $bpsi->where('DATE_FORMAT(waktu, "%H") >=', '12')->where('DATE_FORMAT(waktu, "%H") <', '13')->limit(7)->find();
 
-        return view('pages/charts/chartjs_tds', $data);
+        return view('pages/charts/chartjs_tds',  ['data' => $data, 'siang' => $siang]);
     }
 
     public function halaman_charts_suhu()
@@ -170,16 +158,8 @@ class Bpsi extends ResourceController
 
         $bpsi = new ModelsBpsi();
         $data = $bpsi->orderBy('id', 'desc')->limit(7)->find();
-        // $pagi = $bpsi->where('DATE_FORMAT(waktu, "%H") >=', '04')->where('DATE_FORMAT(waktu, "%H") <', '11')->limit(7)->findAll();
-        $siang = $bpsi->where('DATE_FORMAT(waktu, "%H") >=', '11')->where('DATE_FORMAT(waktu, "%H") <', '15')->limit(7)->findAll();
-        // $sore = $bpsi->where('DATE_FORMAT(waktu, "%H") >=', '15')->where('DATE_FORMAT(waktu, "%H") <', '18')->limit(7)->findAll();
-        // dd($pagi, $siang, $sore, $data);
-        // dd($data);
-        $data = [
-            'data' => $data,
-            'siang' => $siang,
-        ];
+        $siang = $bpsi->where('DATE_FORMAT(waktu, "%H") >=', '12')->where('DATE_FORMAT(waktu, "%H") <', '13')->limit(7)->find();
 
-        return view('pages/charts/chartjs_suhu', $data);
+        return view('pages/charts/chartjs_suhu',  ['data' => $data, 'siang' => $siang]);
     }
 }
